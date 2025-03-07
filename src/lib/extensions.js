@@ -317,6 +317,13 @@ export default [
         creatorAlias: "Ikelene",
         isGitHub: true,
     },
+{
+    name: "tab utilities", 
+    description: "adds blocks related to tabs", 
+    code: "spacecat/tab utilities.js", 
+    banner: "spacecat/tab utilities.png", .
+    creator: "spacecat",
+},
     {
         name: "Pang API",
         description: "Fetch information from the PenguinMod API.",
@@ -526,11 +533,5 @@ export default [
         unstable: true,
         unstableReason: "WebGPU is still experimental and not supported by all browsers and does not work when packaged to electron. Check compatibility at webgpu.io."
     },
-{
-    name: "tab utilities", 
-    description: "adds blocks related to tabs", 
-    code: "spacecat/tab utilities.js", 
-    banner: "spacecat/tab utilities.png", .
-    creator: "spacecat",
-},
+
 ];
