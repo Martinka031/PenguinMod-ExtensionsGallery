@@ -1,4 +1,4 @@
-/*
+    /*
     note to contributors & developers that can read JSON:
         the extra commas are added at the end of each thing
         to help copy & pasting work better
@@ -526,4 +526,11 @@ export default [
         unstable: true,
         unstableReason: "WebGPU is still experimental and not supported by all browsers and does not work when packaged to electron. Check compatibility at webgpu.io."
     },
+{
+    name: "tab utilities", 
+    description: "adds blocks related to tabs", 
+    code: "spacecat/tab utilities.js", 
+    banner: "spacecat/tab utilities.png", .
+    creator: "spacecat",
+},
 ];
